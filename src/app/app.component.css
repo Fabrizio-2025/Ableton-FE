@@ -1,0 +1,100 @@
+.div-main {
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.toolbar {
+  width: 83.2%;
+  height: 80px;
+  background-color: white;
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+}
+
+.toolbar-l {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2.5%;
+}
+
+.toolbar-m {
+  width: 25%;
+}
+
+.toolbar-r {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.toolbar a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83.2%;
+  height: 85vh;
+  background-color: white;
+}
+
+div img {
+  width: 90%;
+  height: 90%;
+}
+
+.first-comment {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 83.2%;
+  background-color: white;
+  padding-top: 60px;
+}
+
+.body-text {
+  width: 50vw;
+}
+
+h1 a {
+  color: blue;
+}
+
+.firstimage {
+  width: 83.2%;
+  height: 90vh;
+  background-color: aqua;
+}
+
+.imagenscontent1 {
+  width: 83.2%;
+  height: 45vw;
+  display: flex;
+  background-color: white;
+}
+
+.img1l{
+width: 40vw;
+
+}
+
+.img1r{
+  width: 60vw;
+  background-color: white;
+}
+
