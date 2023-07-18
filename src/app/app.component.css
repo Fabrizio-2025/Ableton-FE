@@ -54,21 +54,22 @@
 }
 
 div img {
-  width: 90%;
-  height: 90%;
+  width: 75vw;
+  height: 75vh;
 }
 
-.first-comment {
+.comment {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 45vh;
   width: 83.2%;
   background-color: white;
   padding-top: 60px;
 }
 
 .body-text {
-  width: 50vw;
+  width: 42vw;
+  text-align: justify;
 }
 
 h1 a {
@@ -88,13 +89,135 @@ h1 a {
   background-color: white;
 }
 
-.img1l{
-width: 40vw;
+.img1l {
+  width: 40vw;
 
 }
 
-.img1r{
+.img1r {
   width: 60vw;
   background-color: white;
 }
 
+.video1 {
+  width: 83.2%;
+  height: 35vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div iframe {
+  width: 83vh;
+  height: 27vw;
+}
+
+.img2l {
+  width: 60vw;
+  background-color: #B6FFC0;
+}
+
+.img2r {
+  width: 40vw;
+
+}
+
+.imagenscontent2 {
+  width: 83.2%;
+  height: 52vw;
+  display: flex;
+  background-color: white;
+}
+
+.thirdimage {
+  background-color: white;
+  width: 83.2%;
+  height: 85vh;
+}
+
+.fourthimage {
+  background-color: white;
+  width: 83.2%;
+  height: 100vh;
+}
+
+.img3 {
+  width: 55vw;
+  background-color: #D5B3FF;
+}
+
+.imagenscontent3 {
+  width: 83.2%;
+  height: 52vw;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+.lastcomment {
+  width: 83.2%;
+  height: 85vh;
+  background-color: white;
+}
+
+.footer {
+  width: 83.2%;
+  height: 85vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.title-footer {
+  width: 70vw;
+  height: 5vh;
+  display: flex;
+  background-color: white;
+}
+
+
+.footer-body {
+  width: 70vw;
+  height: 50vh;
+  display: flex;
+  margin-top: 2vh;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  width: 300px;
+  height: 20vh;
+  background-color: white;
+  margin-right: 3vw;
+  margin-bottom: 3vh;
+}
+
+.footer-item a {
+  margin-bottom: 1vh;
+  color: black;
+}
+
+.footer-item h3 {
+  margin-bottom: 1vh;
+}
+
+.footer-item a {
+  margin-bottom: 1vh;
+}
+
+.footer-footer {
+  width: 70vw;
+  height: 5vh;
+  background-color: white;
+}
+
+.footer-footer a {
+  font-size: 0.8rem;
+  margin-right: 0.5vw;
+  color: black;
+  font-weight: bolder;
+
+}

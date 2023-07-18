@@ -1,5 +1,5 @@
 @import 'primeflex/primeflex.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Roboto:ital,wght@0,400;1,100&display=swap');
 :root{
   --bg-color:#F3F3F3;
 }
@@ -10,4 +10,6 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: 'Noto Sans Cypro Minoan', sans-serif;
+  border: 0;
 }
