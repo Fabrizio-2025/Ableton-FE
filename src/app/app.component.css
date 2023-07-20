@@ -30,6 +30,15 @@
 
 .toolbar-m {
   width: 25%;
+  height: 2.5vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-m option {
+  background-color: blue;
+  font-weight: 600;
 }
 
 .toolbar-r {
@@ -62,6 +71,24 @@ div img {
   display: flex;
   justify-content: center;
   height: 45vh;
+  width: 83.2%;
+  background-color: white;
+  padding-top: 60px;
+}
+
+.big-comment {
+  display: flex;
+  justify-content: center;
+  height: 71vh;
+  width: 83.2%;
+  background-color: white;
+  padding-top: 60px;
+}
+
+.last-comment {
+  display: flex;
+  justify-content: center;
+  height: 81vh;
   width: 83.2%;
   background-color: white;
   padding-top: 60px;
@@ -161,6 +188,25 @@ div iframe {
   background-color: white;
 }
 
+.last-image {
+  width: 35vw;
+}
+
+.lastcomment-container {
+  width: 80vw;
+  height: 84vh;
+}
+
+.commentlast {
+  width: 50vw;
+  height: 29vh;
+  background-color: #B1C5FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .footer {
   width: 83.2%;
   height: 85vh;
@@ -220,4 +266,658 @@ div iframe {
   color: black;
   font-weight: bolder;
 
+}
+
+.footer-logo {
+  width: 10vw;
+}
+
+.footer-links {
+  width: 43vw;
+}
+
+@media screen and (min-width:320px)and (max-width:425px) {
+  .toolbar-l {
+    width: 18vw;
+  }
+
+  .toolbar-l a {
+    font-size: 0 !important;
+  }
+
+  .toolbar-m {
+    width: 20.5vw;
+    background-color: bisque;
+  }
+
+  .toolbar-m select {
+    width: 23vw !important;
+  }
+
+  .toolbar-r a {
+    font-size: 0px !important;
+  }
+
+  .cover {
+    height: 60vh;
+  }
+
+  .cover img {
+    height: 52vh;
+    object-fit: cover;
+  }
+
+  .comment {
+    height: 60vh;
+  }
+
+  .body-text h1 {
+    font-size: 1.0rem !important;
+  }
+
+  .body-text p {
+    font-size: 0.8rem !important;
+  }
+
+  .video1 {
+    height: 30vh;
+    width: 83.2%;
+    ;
+  }
+
+  .video1 iframe {
+    width: 79vw !important;
+    height: 25vh !important;
+  }
+
+  .video1 div {
+    width: 76vw !important;
+  }
+
+  .video1 div p {
+    font-size: 0.8rem;
+  }
+
+  .big-comment .body-text {
+    width: 56vw !important;
+    height: 50vh !important;
+  }
+
+  .thirdimage {
+    height: 45vh !important;
+  }
+
+  .thirdimage img {
+    height: 42vh !important;
+    object-fit: cover;
+  }
+
+  .last-comment {
+    height: 89vh !important;
+  }
+
+  .lastcomment {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .lastcomment-container {
+    flex-direction: column;
+    width: 83vw !important;
+  }
+
+  .lastcomment-container img {
+    width: 59vw !important;
+    height: 20vh;
+  }
+
+  .commentlast {
+    width: 59vw;
+    height: 44vh;
+  }
+
+  .commentlast h1 {
+    font-size: 0.8rem;
+  }
+
+  .commentlast h2 {
+    margin-top: 1vh;
+    font-size: 0.8rem;
+  }
+
+  .last-image {
+    width: 59vw;
+  }
+
+  .footer {
+    height: 175vh;
+  }
+
+  .title-footer {
+    margin-top: 0 !important;
+    height: 7vh;
+  }
+
+  .footer-body {
+    height: 154vh;
+  }
+
+  .footer-footer {
+    height: 54vh;
+  }
+
+  .footer-logo {
+    width: 41vw;
+  }
+
+  .footer-links {
+    width: 34vw;
+  }
+
+  .footer-item input {
+    width: 45vw !important;
+  }
+
+  .footer-item button {
+    width: 29% !important;
+  }
+}
+
+@media screen and (min-width:426px)and (max-width:677px) {
+  .toolbar-l {
+    width: 18vw;
+  }
+
+  .toolbar-l a {
+    font-size: 0 !important;
+  }
+
+  .toolbar-m {
+    width: 20.5vw;
+
+  }
+
+  .toolbar-m select {
+    width: 23vw !important;
+  }
+
+  .toolbar-r a {
+    font-size: 0px !important;
+  }
+
+  .cover {
+    height: 60vh;
+  }
+
+  .cover img {
+    height: 52vh;
+    object-fit: cover;
+  }
+
+  .comment {
+    height: 60vh;
+  }
+
+  .body-text h1 {
+    font-size: 1.1rem !important;
+  }
+
+  .body-text p {
+    font-size: 1rem !important;
+  }
+
+  .video1 {
+    height: 42vh;
+    width: 83.2%;
+
+  }
+
+  .video1 iframe {
+    width: 79vw !important;
+    height: 35vh !important;
+  }
+
+  .video1 div {
+    width: 76vw !important;
+  }
+
+  .video1 div p {
+    font-size: 1rem;
+  }
+
+  .big-comment .body-text {
+    width: 56vw !important;
+    height: 71vh !important;
+  }
+
+  .big-comment {
+    height: 71vh !important;
+  }
+
+  .thirdimage {
+    height: 45vh !important;
+  }
+
+  .thirdimage img {
+    height: 42vh !important;
+    object-fit: cover;
+  }
+
+  .last-comment {
+    height: 89vh !important;
+  }
+
+  .lastcomment {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .lastcomment-container {
+    flex-direction: column;
+    width: 83vw !important;
+  }
+
+  .lastcomment-container img {
+    width: 59vw !important;
+    height: 20vh;
+    object-fit: cover;
+  }
+
+  .commentlast {
+    width: 59vw;
+    height: 44vh;
+  }
+
+  .commentlast h1 {
+    font-size: 1rem;
+    width: 41vw !important;
+  }
+
+  .commentlast h2 {
+    margin-top: 1vh;
+    font-size: 1rem;
+    width: 41vw !important;
+  }
+
+  .last-image {
+    width: 59vw;
+  }
+
+  .footer {
+    height: 175vh;
+  }
+
+  .title-footer {
+    margin-top: 0 !important;
+    height: 7vh;
+  }
+
+  .footer-body {
+    height: 154vh;
+  }
+
+  .footer-footer {
+    height: 54vh;
+  }
+
+  .footer-logo {
+    width: 41vw;
+  }
+
+  .footer-links {
+    width: 34vw;
+  }
+
+  .footer-item input {
+    width: 45vw !important;
+  }
+
+  .footer-item button {
+    width: 29% !important;
+  }
+}
+
+@media screen and (min-width:678px)and (max-width:985px) {
+  .toolbar-l {
+    width: 18vw;
+  }
+
+  .toolbar-l a {
+    font-size: 0 !important;
+  }
+
+  .toolbar-m {
+    width: 20.5vw;
+
+  }
+
+  .toolbar-m select {
+    width: 12vw !important;
+  }
+
+  .toolbar-r a {
+    font-size: 0px !important;
+  }
+
+  .cover {
+    height: 60vh;
+  }
+
+  .cover img {
+    height: 52vh;
+    object-fit: cover;
+  }
+
+  .comment {
+    height: 60vh;
+  }
+
+  .body-text h1 {
+    font-size: 1.1rem !important;
+  }
+
+  .body-text p {
+    font-size: 1rem !important;
+  }
+
+  .video1 {
+    height: 45vh;
+    width: 83.2%;
+
+  }
+
+  .video1 iframe {
+    width: 79vw !important;
+    height: 44vh !important;
+  }
+
+  .video1 div {
+    width: 76vw !important;
+  }
+
+  .video1 div p {
+    font-size: 1rem;
+  }
+
+  .big-comment .body-text {
+    width: 56vw !important;
+    height: 71vh !important;
+  }
+
+  .big-comment {
+    height: 71vh !important;
+  }
+
+  .thirdimage {
+    height: 45vh !important;
+  }
+
+  .thirdimage img {
+    height: 42vh !important;
+    object-fit: cover;
+  }
+
+  .last-comment {
+    height: 89vh !important;
+  }
+
+  .lastcomment {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .lastcomment-container {
+    flex-direction: column;
+    width: 83vw !important;
+  }
+
+  .lastcomment-container img {
+    width: 59vw !important;
+    height: 20vh;
+    object-fit: cover;
+  }
+
+  .commentlast {
+    width: 59vw;
+    height: 44vh;
+  }
+
+  .commentlast h1 {
+    font-size: 1rem;
+    width: 41vw !important;
+  }
+
+  .commentlast h2 {
+    margin-top: 1vh;
+    font-size: 1rem;
+    width: 41vw !important;
+  }
+
+  .last-image {
+    width: 59vw;
+  }
+
+  .footer {
+    height: 175vh;
+  }
+
+  .title-footer {
+    margin-top: 0 !important;
+    height: 7vh;
+  }
+
+  .footer-body {
+    height: 154vh;
+  }
+
+  .footer-footer {
+    height: 54vh;
+  }
+
+  .footer-logo {
+    width: 41vw;
+  }
+
+  .footer-links {
+    width: 34vw;
+  }
+
+  .footer-item input {
+    width: 45vw !important;
+  }
+
+  .footer-item button {
+    width: 29% !important;
+  }
+}
+
+@media screen and (min-width:986px)and (max-width:1312px) {
+  .toolbar-l {
+    width: 18vw;
+  }
+
+  .toolbar-l a {
+    font-size: 0 !important;
+  }
+
+  .toolbar-m {
+    width: 20.5vw;
+
+  }
+
+  .toolbar-m select {
+    width: 10vw !important;
+  }
+
+  .toolbar-r a {
+    font-size: 0px !important;
+  }
+
+  .cover {
+    height: 60vh;
+  }
+
+  .cover img {
+    height: 52vh;
+    object-fit: cover;
+  }
+
+  .comment {
+    height: 60vh;
+  }
+
+  .body-text h1 {
+    font-size: 1.1rem !important;
+  }
+
+  .body-text p {
+    font-size: 1rem !important;
+  }
+
+  .video1 {
+    height: 45vh;
+    width: 83.2%;
+
+  }
+
+  .video1 iframe {
+    width: 79vw !important;
+    height: 44vh !important;
+  }
+
+  .video1 div {
+    width: 76vw !important;
+  }
+
+  .video1 div p {
+    font-size: 1rem;
+  }
+
+  .big-comment .body-text {
+    width: 56vw !important;
+    height: 71vh !important;
+  }
+
+  .big-comment {
+    height: 71vh !important;
+  }
+
+  .thirdimage {
+    height: 45vh !important;
+  }
+
+  .thirdimage img {
+    height: 42vh !important;
+    object-fit: cover;
+  }
+
+  .last-comment {
+    height: 89vh !important;
+  }
+
+  .lastcomment {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .lastcomment-container {
+    flex-direction: column;
+    width: 83vw !important;
+  }
+
+  .lastcomment-container img {
+    width: 59vw !important;
+    height: 20vh;
+    object-fit: cover;
+  }
+
+  .commentlast {
+    width: 59vw;
+    height: 44vh;
+  }
+
+  .commentlast h1 {
+    font-size: 1rem;
+    width: 41vw !important;
+  }
+
+  .commentlast h2 {
+    margin-top: 1vh;
+    font-size: 1rem;
+    width: 41vw !important;
+  }
+
+  .last-image {
+    width: 59vw;
+  }
+
+  .footer {
+    height: 175vh;
+  }
+
+  .title-footer {
+    margin-top: 0 !important;
+    height: 7vh;
+  }
+
+  .footer-body {
+    height: 154vh;
+  }
+
+  .footer-footer {
+    height: 54vh;
+  }
+
+  .footer-logo {
+    width: 41vw;
+  }
+
+  .footer-links {
+    width: 34vw;
+  }
+
+  .footer-item input {
+    width: 45vw !important;
+  }
+
+  .footer-item button {
+    width: 29% !important;
+  }
+}
+
+@media screen and (min-width:1313px)and (max-width:1800px) {
+  .toolbar-l a {
+    font-size: 1.2rem;
+  }
+
+  .toolbar-m select {
+    height: 0;
+  }
+
+  .commentlast {
+    height: 75.5vh;
+  }
+
+  .footer {
+    height: 102vh;
+  }
+
+  .footer-body {
+    height: 72vh;
+  }
+
+  .footer-item div {
+
+    justify-content: start !important;
+  }
+}
+
+@media screen and (min-width:1313px)and (max-width:1980px) {
+  .toolbar-m select {
+    height: 0;
+  }
+
+  .commentlast {
+    height: 75.5vh;
+  }
 }
